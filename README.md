@@ -2,19 +2,13 @@
 
 This is a noverreader by RPMdunkedsky.
 
-It uses command-lines,and we use C++ to do it.(in /c++)
+It uses functions,and we use C++ to do it.(in /c++)
 
-or you can get the python edition in /python
+or you can get the python edition in /python(hasn't been writing,now in C++)
 
 If you do not know how to use:
 
-for C++:
-
-type HELP
-
-for python:
-
-type reader -help
+Just read the wiki,if the wiki hasn't done,just wait for us to make sure there isn't any grammar issues.
 
 
 
