@@ -6,16 +6,6 @@ using namespace std;
 struct chapter{
     string name;
     vector<string> data;
-    void output(){
-        cout<<"\t\t"<<name<<endl;
-        for(int i=0;i<vector.size();i++){
-            cout<<data[i]<<"\n";
-        }
-        char ch;
-        cout<<"Input Enter To Return:";
-        cin>>ch;
-        system("cls");
-    }
 };
 struct book{
     string name,author;
@@ -42,8 +32,5 @@ class reader{
             cout<<"New Name:"<<this.name;
             cout<<"Successfully Changed name!";
             return;
-        }
-        void readNewBook(book k){
-            cout<<
         }
 }

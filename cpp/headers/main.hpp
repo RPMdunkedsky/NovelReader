@@ -5,4 +5,3 @@ void copyright(){
     cout<<"Copy Right By 2021 RPMdunkedsky & 2021 JingSi \n Novels By JingSi \n";
     return;
 }
-/* QAQ */
