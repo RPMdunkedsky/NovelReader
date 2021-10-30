@@ -5,7 +5,7 @@
 using namespace std;
 book k;
 chapter c;
-void write(){
+void _input(){
     iosspeedup;
     cout<<"Input Novel Name:";
     string s;
@@ -21,7 +21,10 @@ void write(){
             c.data.push_back(s);
         k.chapters.push_back(c);
     }
-    cout<<"Done! Read It!"<<endl;
+    cout<<"---finished writing---"<<"\n";
+    return;
+}
+void _write_in_to_file(){
     k.name+="novel.txt";
     ofstream fout(k.name.c_str());
     fout<<"\t\t"<<name<<"\n"<<author<<"\n";
@@ -32,12 +35,20 @@ void write(){
         }
     }
     fout.close();
-    cout<<"\t\t"<<name<<"\n"<<author<<"\n";
+    k.name=k.name.substr(0,k,size()-10);
+}
+void _output(){
+    cout<<"Done! Read It!"<<endl;
+    cout<<"\t\t"<<name<<"\n"<<author<<"\n";\
     for(int i=0;i<k.chapters.size();i++){
         cout<<"\t\t"<<k.chapters[i].name<<"\n";
         for(int j=0;j<k.chapters[i].data.size();j++){
             cout<<k.chapters[i].data[j]<<"\n";
         }
     }
-    return;
+}
+void write(){
+    _input();
+    _write_in_to_file();
+    _output();
 }
