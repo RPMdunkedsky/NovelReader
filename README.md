@@ -26,7 +26,7 @@ It just have the normally things.
 
 'Cause we are chinese and just knows a bit of english
 
-if there are any grammar errors
+if there are any grammar(english) errors
 
 just make a pull-request and wait me to accept.
 
@@ -34,6 +34,19 @@ just make a pull-request and wait me to accept.
 
 It will be chinese at first,but we will translate it to english.
 
-‘Cause we need to push this in an online platform,called xes
+upd:Python Updates! It Finally Comes!
 
-so i updated , used ifdef
+but github is so slow,liiiiiiike a snail
+
+----rpm at 2021-12-26
+
+upd2:
+
+my computer is bought 10 years ago,ans it's CPU is Core-i7-2630QM. Is There Any One To Compill the C++ version,and someone to do the python ver.
+
+if there's any grammar errors,write a mail to me.
+
+my mail address is:
+
+[rpmcpp@rinpianemiengchn.uu.me](mailto:rpmcpp@rinpianemiengchn.uu.me)
+
